@@ -41,6 +41,6 @@ public class Waffle extends Sweet {
     public String getDescription() {
         String description = super.getDescription();
         description += " - Waffle Type: " + waffleType;
-        return getName() + description;
+        return description;
     }
 }
